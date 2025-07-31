@@ -27,39 +27,51 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-white">
             <div class="container">
-                <a class="navbar-brand fs-1" href="#"><img src="./assets/images/logo.png" alt="" class="rounded" height="50"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <!-- Brand Logo -->
+                <a class="navbar-brand fs-1" href="#">
+                    <img src="./assets/images/logo.png" alt="Logo" class="rounded" height="60">
+                </a>
+
+                <!-- Toggler for Mobile View -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
+                <!-- Navigation Links -->
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#home">Home</a>
+                            <a class="nav-link active fs-5 text-primary" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
+                            <a class="nav-link fs-5 text-primary" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#projects">Projects</a>
+                            <a class="nav-link fs-5 text-primary" href="#projects">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
+                            <a class="nav-link fs-5 text-primary" href="#contact">Contact</a>
                         </li>
                     </ul>
-                    <a href="assets/resume/ganesh-resume.pdf" class="btn btn-outline-light ms-3" download>Resume</a>
+
+                    <!-- Resume Button -->
+                    <a href="assets/GANESH KUMAR R resume.pdf" target="_blank" class="btn btn-outline-light ms-3">
+                        View Resume
+                    </a>
                 </div>
             </div>
         </nav>
-
         <section class="heroSection py-5" id="home">
             <div class="container">
                 <div class="row align-items-center">
                     <!-- Left Column: Text Content -->
-                    <div class="col-12 col-md-6 mb-sm-5 text-center">
+                    <div class="col-12 col-md-6 mb-5 mb-md-0 text-center text-md-start">
                         <h1 class="display-5 fw-bold mb-3">Ganesh Kumar R</h1>
-                        <p class="lead mb-4">Front-End Developer passionate about crafting clean, responsive websites
+                        <p class="lead mb-4">
+                            Front-End Developer passionate about crafting clean, responsive websites
                             using HTML, CSS, JavaScript, Bootstrap & WordPress.
                         </p>
                         <a href="#projects" class="btn btn-primary btn-lg">View My Work</a>
@@ -68,12 +80,11 @@
                     <!-- Right Column: Image -->
                     <div class="col-12 col-md-6 text-center">
                         <img src="./assets/images/hero.png" alt="Web Development Illustration"
-                            class="img-fluid hero-img ">
+                            class="img-fluid hero-img">
                     </div>
                 </div>
             </div>
         </section>
-
     </header>
 
     <main><!--parentContainer-->
@@ -91,49 +102,50 @@
                 <!-- Main Content -->
                 <div class="row align-items-center">
                     <!-- Left: Intro Text -->
-                    <div class="col-lg-6 mb-4 ">
-                        <h3 class="mb-3">Hi, I'm Ganesh Kumar R </h3>
-                        <p class="lead text-dark">I'm a Front-End Developer with a Mechanical Engineering background
-                            from
-                            Coimbatore.
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <h3 class="mb-3">Hi, I'm Ganesh Kumar R</h3>
+                        <p class="lead text-dark">
+                            I'm a Front-End Developer with a Mechanical Engineering background from Coimbatore.
                             I focus on crafting clean, responsive, and user-friendly websites using
                             <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>,
                             <strong>Bootstrap</strong>, and <strong>WordPress</strong>.
                         </p>
-                        <p class="lead text-dark">Currently expanding my skills and building live projects, I’m
-                            passionate
-                            about blending clean design with efficient development.</p>
+                        <p class="lead text-dark">
+                            Currently expanding my skills and building live projects, I’m passionate about blending
+                            clean design
+                            with efficient development.
+                        </p>
                     </div>
 
                     <!-- Right: Education Timeline Cards -->
                     <div class="col-lg-6">
                         <div class="timeline">
                             <div class="timeline-item shadow-sm p-3 mb-4 bg-white rounded">
-                                <div class=" text-primary fw-bold mb-2">2018 - 2022</div>
-                                <h6 class="mb-2">B.E. Mechanical Engineering</h6>
-                                <p class="mb-2 text-muted">Kumaraguru College of Technology</p>
-                                <h6 class="text-dark">Cgpa - 8.17</h6>
-
+                                <div class="text-primary fw-bold mb-2">2018 – 2022</div>
+                                <h6 class="mb-1">B.E. Mechanical Engineering</h6>
+                                <p class="mb-1 text-muted">Kumaraguru College of Technology</p>
+                                <p class="mb-0 text-dark"><strong>CGPA:</strong> 8.17</p>
                             </div>
 
                             <div class="timeline-item shadow-sm p-3 mb-4 bg-white rounded">
-                                <div class=" text-primary fw-bold mb-2">2016 - 2018</div>
-                                <h6 class="mb-2">HSC</h6>
-                                <p class="mb-2 text-muted">Adharsh Vidhyalaya Matric Hr. Sec. School</p>
-                                <h6 class="text-dark">84.9%</h6>
+                                <div class="text-primary fw-bold mb-2">2016 – 2018</div>
+                                <h6 class="mb-1">HSC</h6>
+                                <p class="mb-1 text-muted">Adharsh Vidhyalaya Matric Hr. Sec. School</p>
+                                <p class="mb-0 text-dark"><strong>Percentage:</strong> 84.9%</p>
                             </div>
 
                             <div class="timeline-item shadow-sm p-3 bg-white rounded">
-                                <div class=" text-primary fw-bold mb-2">2015 - 2016</div>
-                                <h6 class="mb-2">SSLC</h6>
-                                <p class="mb-2 text-muted">R.K.V CBSE Senior Secondary School</p>
-                                <h6 class="text-dark">79.2%</h6>
+                                <div class="text-primary fw-bold mb-2">2015 – 2016</div>
+                                <h6 class="mb-1">SSLC</h6>
+                                <p class="mb-1 text-muted">R.K.V CBSE Senior Secondary School</p>
+                                <p class="mb-0 text-dark"><strong>Percentage:</strong> 79.2%</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
 
         <!-- Skills Section -->
         <section class="servicesSection py-5">
@@ -144,12 +156,11 @@
                     <!-- HTML Card -->
                     <div class="col-md-2">
                         <div class="card skill-card bg-html text-white p-3 h-100">
-                            <img src="https://cdn-icons-png.flaticon.com/512/1051/1051277.png" alt="HTML"
-                                class="skill-icon mb-3">
+                            <img src="https://cdn-icons-png.flaticon.com/512/1051/1051277.png" alt="HTML Icon"
+                                class="skill-icon mb-3" width="60">
                             <h5 class="card-title">HTML</h5>
                             <div class="skill-desc">
-                                I use HTML to create web content with semantic tags and ensuring
-                                SEO-friendly layouts for web development.
+                                I use HTML to create structured, semantic web content and ensure SEO-friendly layouts.
                             </div>
                         </div>
                     </div>
@@ -157,12 +168,12 @@
                     <!-- CSS Card -->
                     <div class="col-md-2">
                         <div class="card skill-card bg-css text-white p-3 h-100">
-                            <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS"
-                                class="skill-icon mb-3">
+                            <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS Icon"
+                                class="skill-icon mb-3" width="60">
                             <h5 class="card-title">CSS</h5>
                             <div class="skill-desc">
-                                I use CSS to design responsive structure of website, utilizing Flexbox,
-                                Grid for an enhanced user experience.
+                                I design responsive web layouts using Flexbox and Grid, delivering a smooth user
+                                experience.
                             </div>
                         </div>
                     </div>
@@ -170,12 +181,12 @@
                     <!-- JavaScript Card -->
                     <div class="col-md-2">
                         <div class="card skill-card bg-js text-dark p-3 h-100">
-                            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript"
-                                class="skill-icon mb-3">
+                            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript Icon"
+                                class="skill-icon mb-3" width="60">
                             <h5 class="card-title">JavaScript</h5>
                             <div class="skill-desc">
-                                I use JavaScript to add interactivity to web pages, from DOM
-                                manipulation to form validation.
+                                I use JavaScript to bring interactivity to websites — from DOM manipulation to form
+                                validation.
                             </div>
                         </div>
                     </div>
@@ -183,12 +194,12 @@
                     <!-- Bootstrap Card -->
                     <div class="col-md-2">
                         <div class="card skill-card bg-bootstrap text-white p-3 h-100">
-                            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968672.png" alt="Bootstrap"
-                                class="skill-icon mb-3">
+                            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968672.png" alt="Bootstrap Icon"
+                                class="skill-icon mb-3" width="60">
                             <h5 class="card-title">Bootstrap</h5>
                             <div class="skill-desc">
-                                I use Bootstrap's prebuilt components and responsive grid system to build
-                                mobile-first and consistent layouts.
+                                I leverage Bootstrap’s components and grid system to build consistent, mobile-first
+                                layouts efficiently.
                             </div>
                         </div>
                     </div>
@@ -196,11 +207,12 @@
                     <!-- WordPress Card -->
                     <div class="col-md-2">
                         <div class="card skill-card bg-wordpress text-white p-3 h-100">
-                            <img src="https://cdn-icons-png.flaticon.com/512/174/174881.png" alt="WordPress"
-                                class="skill-icon mb-3">
+                            <img src="https://cdn-icons-png.flaticon.com/512/174/174881.png" alt="WordPress Icon"
+                                class="skill-icon mb-3" width="60">
                             <h5 class="card-title">WordPress</h5>
                             <div class="skill-desc">
-                                I build custom themes and CMS-powered websites with ease using WordPress.
+                                I build dynamic websites and custom themes using WordPress, focusing on CMS flexibility
+                                and user control.
                             </div>
                         </div>
                     </div>
@@ -208,13 +220,16 @@
                 </div>
             </div>
         </section>
-        <section class="projectsCards py-5">
+
+        <section class="projectsCards py-5" id="projects">
             <div class="container">
+                    <h2 class="text-center mb-5 fw-bold">My Projects</h2>
                 <div class="row g-4">
                     <!-- Card 1 -->
                     <div class="col-md-6 col-lg-4">
                         <div class="card project-card">
-                            <img src="./assets/images/coffee_shop.png" class="project-image" alt="Project 1" />
+                            <img src="./assets/images/coffee_shop.png" class="project-image"
+                                alt="Coffee Shop Website" />
                             <div class="card-body text-center">
                                 <h5 class="project-title mb-2">Coffee Shop Website</h5>
                                 <h6 class="tools-used mb-3">Tools used - HTML, CSS, Bootstrap</h6>
@@ -223,58 +238,66 @@
                             </div>
                         </div>
                     </div>
+
                     <!-- Card 2 -->
                     <div class="col-md-6 col-lg-4">
                         <div class="card project-card">
-                            <img src="./assets/images/eternal_furniture.png" class="project-image" alt="Project 1" />
+                            <img src="./assets/images/eternal_furniture.png" class="project-image"
+                                alt="Eternal Furniture Website" />
                             <div class="card-body text-center">
                                 <h5 class="project-title mb-2">Eternal Furniture Website</h5>
-                                <h6 class="tools-used mb-3">Tools used - HTML, CSS, Javascript</h6>
+                                <h6 class="tools-used mb-3">Tools used - HTML, CSS, JavaScript</h6>
                                 <a href="https://ganeshkumar723.github.io/Eternal_furniture/" target="_blank"
                                     class="demo-btn">Live Demo</a>
                             </div>
                         </div>
                     </div>
+
                     <!-- Card 3 -->
                     <div class="col-md-6 col-lg-4">
                         <div class="card project-card">
-                            <img src="./assets/images/pinkz_info.png" class="project-image" alt="Project 1" />
+                            <img src="./assets/images/pinkz_info.png" class="project-image" alt="Pinkz Info Website" />
                             <div class="card-body text-center">
                                 <h5 class="project-title mb-2">Pinkz Info Website</h5>
-                                <h6 class="tools-used mb-3">Tools used - WORDPRESS</h6>
+                                <h6 class="tools-used mb-3">Tools used - WordPress</h6>
                                 <a href="https://pinkzinfo.42web.io/home/?i=1" target="_blank" class="demo-btn">Live
                                     Demo</a>
                             </div>
                         </div>
                     </div>
+
                     <!-- Card 4 -->
                     <div class="col-md-6 col-lg-4">
                         <div class="card project-card">
-                            <img src="./assets/images/enquiry form.png" class="project-image" alt="Project 1" />
+                            <img src="./assets/images/enquiry form.png" class="project-image"
+                                alt="Enquiry Form Project" />
                             <div class="card-body text-center">
                                 <h5 class="project-title mb-2">Enquiry Form</h5>
-                                <h6 class="tools-used mb-3">Tools used - HTML, CSS, Javascript</h6>
+                                <h6 class="tools-used mb-3">Tools used - HTML, CSS, JavaScript</h6>
                                 <a href="https://ganeshkumar723.github.io/enquiry_form/" target="_blank"
                                     class="demo-btn">Live Demo</a>
                             </div>
                         </div>
                     </div>
+
                     <!-- Card 5 -->
                     <div class="col-md-6 col-lg-4">
                         <div class="card project-card">
-                            <img src="./assets/images/array_function.png" class="project-image" alt="Project 1" />
+                            <img src="./assets/images/array_function.png" class="project-image"
+                                alt="Array Function Project" />
                             <div class="card-body text-center">
                                 <h5 class="project-title mb-2">Array Function</h5>
-                                <h6 class="tools-used mb-3">Tools used - HTML, CSS, Javascript</h6>
+                                <h6 class="tools-used mb-3">Tools used - HTML, CSS, JavaScript</h6>
                                 <a href="https://ganeshkumar723.github.io/javascript_arrays/" target="_blank"
                                     class="demo-btn">Live Demo</a>
                             </div>
                         </div>
                     </div>
+
                     <!-- Card 6 -->
                     <div class="col-md-6 col-lg-4">
                         <div class="card project-card">
-                            <img src="./assets/images/voterlist.png" class="project-image" alt="Project 1" />
+                            <img src="./assets/images/voterlist.png" class="project-image" alt="Voterlist Website" />
                             <div class="card-body text-center">
                                 <h5 class="project-title mb-2">Voterlist Website</h5>
                                 <h6 class="tools-used mb-3">Tools used - HTML, CSS</h6>
@@ -283,10 +306,12 @@
                             </div>
                         </div>
                     </div>
+
                     <!-- Card 7 -->
                     <div class="col-md-6 col-lg-4">
                         <div class="card project-card">
-                            <img src="./assets/images/string_function.png" class="project-image" alt="Project 1" />
+                            <img src="./assets/images/string_function.png" class="project-image"
+                                alt="String Function Project" />
                             <div class="card-body text-center">
                                 <h5 class="project-title mb-2">String Function</h5>
                                 <h6 class="tools-used mb-3">Tools used - HTML, CSS, JavaScript</h6>
@@ -295,10 +320,12 @@
                             </div>
                         </div>
                     </div>
+
                     <!-- Card 8 -->
                     <div class="col-md-6 col-lg-4">
                         <div class="card project-card">
-                            <img src="./assets/images/dental cards.png" class="project-image" alt="Project 1" />
+                            <img src="./assets/images/dental cards.png" class="project-image"
+                                alt="Dental Cards Project" />
                             <div class="card-body text-center">
                                 <h5 class="project-title mb-2">Dental Cards</h5>
                                 <h6 class="tools-used mb-3">Tools used - HTML, CSS</h6>
@@ -307,11 +334,12 @@
                             </div>
                         </div>
                     </div>
+
                     <!-- Card 9 -->
                     <div class="col-md-6 col-lg-4">
                         <div class="card project-card">
                             <img src="./assets/images/coffee_shop_wordpress.png" class="project-image"
-                                alt="Project 1" />
+                                alt="Coffee Shop WordPress" />
                             <div class="card-body text-center">
                                 <h5 class="project-title mb-2">Coffee Shop</h5>
                                 <h6 class="tools-used mb-3">Tools used - WordPress</h6>
@@ -320,10 +348,12 @@
                             </div>
                         </div>
                     </div>
+
                     <!-- Card 10 -->
                     <div class="col-md-6 col-lg-4">
                         <div class="card project-card">
-                            <img src="./assets/images/job_application.png" class="project-image" alt="Project 1" />
+                            <img src="./assets/images/job_application.png" class="project-image"
+                                alt="Job Application Form" />
                             <div class="card-body text-center">
                                 <h5 class="project-title mb-2">Job Application Form</h5>
                                 <h6 class="tools-used mb-3">Tools used - HTML, CSS, JavaScript</h6>
@@ -332,10 +362,12 @@
                             </div>
                         </div>
                     </div>
+
                     <!-- Card 11 -->
                     <div class="col-md-6 col-lg-4">
                         <div class="card project-card">
-                            <img src="./assets/images/designer_card.png" class="project-image" alt="Project 1" />
+                            <img src="./assets/images/designer_card.png" class="project-image"
+                                alt="Designer Card Project" />
                             <div class="card-body text-center">
                                 <h5 class="project-title mb-2">Designer Card</h5>
                                 <h6 class="tools-used mb-3">Tools used - HTML, CSS</h6>
@@ -344,10 +376,12 @@
                             </div>
                         </div>
                     </div>
+
                     <!-- Card 12 -->
                     <div class="col-md-6 col-lg-4">
                         <div class="card project-card">
-                            <img src="./assets/images/accordion.png" class="project-image" alt="Project 1" />
+                            <img src="./assets/images/accordion.png" class="project-image"
+                                alt="Simple Accordion Project" />
                             <div class="card-body text-center">
                                 <h5 class="project-title mb-2">Simple Accordion</h5>
                                 <h6 class="tools-used mb-3">Tools used - HTML, CSS</h6>
@@ -356,10 +390,12 @@
                             </div>
                         </div>
                     </div>
+
                     <!-- Card 13 -->
                     <div class="col-md-6 col-lg-4">
                         <div class="card project-card">
-                            <img src="./assets/images/portfolio_card.png" class="project-image" alt="Project 1" />
+                            <img src="./assets/images/portfolio_card.png" class="project-image"
+                                alt="Portfolio Card Project" />
                             <div class="card-body text-center">
                                 <h5 class="project-title mb-2">Portfolio Card</h5>
                                 <h6 class="tools-used mb-3">Tools used - HTML, CSS</h6>
@@ -368,13 +404,15 @@
                             </div>
                         </div>
                     </div>
+
                     <!-- Card 14 -->
                     <div class="col-md-6 col-lg-4">
                         <div class="card project-card">
-                            <img src="./assets/images/calculator.png" class="project-image" alt="Project 1" />
+                            <img src="./assets/images/calculator.png" class="project-image"
+                                alt="Simple Calculator Project" />
                             <div class="card-body text-center">
                                 <h5 class="project-title mb-2">Simple Calculator</h5>
-                                <h6 class="tools-used mb-3">Tools used - HTML, CSS ,JavaScript</h6>
+                                <h6 class="tools-used mb-3">Tools used - HTML, CSS, JavaScript</h6>
                                 <a href="https://ganeshkumar723.github.io/calculator/" target="_blank"
                                     class="demo-btn">Live Demo</a>
                             </div>
@@ -383,48 +421,47 @@
                 </div>
             </div>
         </section>
+
     </main>
     <footer>
-        <div class="contact py-5" id="contactSection">
+        <section class="contact py-5" id="contact">
             <div class="container">
                 <!-- Heading -->
-                <div class="row mb-4">
+                <div class="row mb-5">
                     <div class="col text-center">
                         <h2 class="fw-bold">Contact</h2>
                     </div>
                 </div>
+
                 <div class="row g-4">
                     <!-- Left: Contact Info -->
                     <div class="col-lg-4">
-                        <div class="bg-white shadow-sm rounded-3 p-4 mb-4 d-flex align-items-center ">
+                        <div class="bg-white shadow-sm rounded-3 p-4 d-flex">
+                            <i class="fa-solid fa-location-dot fa-2x text-danger me-3 mt-1"></i>
                             <div>
-                                <i class="fa-solid fa-location-dot fa-lg text-danger me-3 mt-1 mb-3 fs-3"></i>
-                            </div>
-                            <div>
-                                <h6 class="fw-semibold mb-2 fs-4">Address</h6>
-                                <p class="mb-0 fs-5">Coimbatore, India</p>
+                                <h6 class="fw-semibold mb-1 fs-5">Address</h6>
+                                <p class="mb-0 fs-6">Coimbatore, India</p>
                             </div>
                         </div>
-                        <div class="bg-white shadow-sm rounded-3 p-4 mb-4 d-flex align-items-center">
+
+                        <div class="bg-white shadow-sm rounded-3 p-4 d-flex mt-3">
+                            <i class="fa-solid fa-phone fa-2x text-success me-3 mt-1"></i>
                             <div>
-                                <i class="fa-solid fa-phone fa-lg text-success me-3 mt-1 fs-3"></i>
-                            </div>
-                            <div>
-                                <h6 class="fw-semibold mb-1 fs-4">Phone Number</h6>
-                                <p class="mb-0 fs-5">+91 9843011181</p>
-                            </div>
-                        </div>
-                        <div class="bg-white shadow-sm rounded-3 p-4 mb-4 d-flex align-items-center">
-                            <div>
-                                <i class="fa-regular fa-envelope fa-lg text-primary me-3 mt-1 fs-3"></i>
-                            </div>
-                            <div>
-                                <h6 class="fw-semibold mb-1 fs-4">Mail ID</h6>
-                                <p class="mb-0 fs-5">ganeshkumar72302@gmail.com</p>
+                                <h6 class="fw-semibold mb-1 fs-5">Phone</h6>
+                                <p class="mb-0 fs-6">+91 98430 11181</p>
                             </div>
                         </div>
-                        <div class="text-center mt-3">
-                            <a href="" download class="btn btn-outline-primary">
+
+                        <div class="bg-white shadow-sm rounded-3 p-4 d-flex mt-3">
+                            <i class="fa-regular fa-envelope fa-2x text-primary me-3 mt-1"></i>
+                            <div>
+                                <h6 class="fw-semibold mb-1 fs-5">Email</h6>
+                                <p class="mb-0 fs-6">ganeshkumar72302@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="text-center mt-4">
+                            <a href="./assets/GANESH KUMAR R resume.pdf" download class="btn btn-outline-primary w-100">
                                 <i class="fa-solid fa-download me-2"></i>Download Resume
                             </a>
                         </div>
@@ -433,23 +470,28 @@
                     <!-- Right: Contact Form -->
                     <div class="col-lg-8">
                         <form class="bg-white shadow-sm rounded-3 p-4">
-                            <h5 class="mb-4 text-center text-capitalize fw-semibold fs-3">Keep in Touch</h5>
+                            <h5 class="mb-4 text-center fw-semibold fs-4 text-capitalize">Keep in Touch</h5>
+
                             <div class="mb-3">
-                                <input type="text" id="fname" name="name" class="form-control text-uppercase"
+                                <input type="text" class="form-control text-uppercase" id="fname" name="name"
                                     placeholder="Enter your name" required>
                             </div>
+
                             <div class="mb-3">
-                                <input type="text" id="mobile_no" name="mobnum" class="form-control text-uppercase"
+                                <input type="tel" class="form-control text-uppercase" id="mobile_no" name="mobnum"
                                     placeholder="Enter your mobile number" required>
                             </div>
+
                             <div class="mb-3">
-                                <input type="email" id="mail_id" name="mailID" class="form-control text-uppercase"
+                                <input type="email" class="form-control text-uppercase" id="mail_id" name="mailID"
                                     placeholder="Enter your mail ID" required>
                             </div>
+
                             <div class="mb-4">
-                                <textarea name="city" id="city_name" rows="4" class="form-control text-uppercase"
-                                    placeholder="Enter your message"></textarea>
+                                <textarea class="form-control text-uppercase" name="message" id="city_name" rows="4"
+                                    placeholder="Enter your message" required></textarea>
                             </div>
+
                             <div class="text-center">
                                 <button type="submit" class="btn btn-success px-4">
                                     <i class="fa-solid fa-paper-plane me-2"></i>Send Message
@@ -459,13 +501,13 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
 
 
 
         <div class="container text-center">
-            <p class="text-muted fs-4">&copy; 2025 Ganesh Kumar. All Rights Reserved.</p>
+            <p class="text-muted fs-5 mb-0">&copy; 2025 Ganesh Kumar. All rights reserved.</p>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
